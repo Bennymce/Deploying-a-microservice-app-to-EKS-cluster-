@@ -1,0 +1,66 @@
+# releases:
+#   - name: emailservice
+#     #namespace: default
+#     chart: ./my-microservice  # The path to the Helm chart directory.
+#     values:
+#       - my-microservice/email-values.yaml  # The path to the values file for the Helm chart.
+
+#   - name: paymentservice
+  #   namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/payment-values.yaml
+
+  # - name: productcatalogservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/productcatalog-values.yaml
+
+  # - name: shippingservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/shipping-values.yaml
+
+  # - name: adservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/ad-values.yaml
+
+  # - name: checkoutservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/checkout-values.yaml
+
+  # - name: currencyservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/currency-values.yaml
+
+  # - name: recommendationservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/recommendation-values.yaml
+
+  # - name: cartservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/cart-values.yaml
+
+  # - name: frontendservice
+  #   #namespace: default
+  #   chart: ./my-microservice
+  #   values:
+  #     - my-microservice/frontend-values.yaml
+
+  # - name: redis-cart
+  #   #namespace: default
+  #   chart: ./redis
+  #   values:
+  #     - redis/redis-values.yaml

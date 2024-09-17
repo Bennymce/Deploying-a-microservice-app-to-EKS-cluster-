@@ -1,0 +1,14 @@
+# Default values for shoppingapp-microservice.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+appName: microservicename #i chose this 
+replicaCount: 2
+appImage: gcr.io/google-samples/microservices-demo/microservicename  #since i plan to use muktiple micro-services 
+appVersion: 1.0.0  #give any version tag yuo wish to 
+containerPort: 8080
+env:
+  MY_ENV_VAR1: "value1"
+  MY_ENV_VAR2: "value2"
+  MY_ENV_VAR3: "value3"
+servicePort : 80
+serviceType: ClusterIP
